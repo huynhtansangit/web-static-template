@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower o8o</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/0a957108d3.js" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font material -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="library/swiper/swiper.min.css">
+    <link rel="stylesheet" href="user-css/user-page.css">
+    <link rel="stylesheet" href="user-css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <span id="Users" style="display: none"></span>
+    <span class="status-user" style="display: none">user</span>
+</head>
+<body>
+    <img class="wave" src="./images/sign-in/wave.svg"  alt="">
+    <div class="container">
+        <div class="img">
+            <img class="decor" src="./images/sign-in/banner.svg" alt="banner">
+        </div>
+        <div class="login-container">
+            <form  id="register" action="user-page.html">
+                <img class="avt-img" src="./images/sign-in/avt-img.svg" alt="avt">
+                <h2 class="greeting"><a class="nav-link" href="index.html" title="Homepage"><span>o8o</span> welcome</a></h2>
+                <div class="textbox">
+                    
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h5 id="name">Your name</h5>
+                        <input class="input" id="txt-username" type="text" name="" placeholder="" required>
+                    </div>
+                    <div class="notice">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span class="tooltip-text"></span>
+                    </div>
+                </div>
+                <div class="textbox">
+                    <div class="i">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h5 id="email">Your email</h5>
+                        <input class="input" id="txt-email" type="text" name="" placeholder="" required>
+                    </div>
+                    <div class="notice">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span class="tooltip-text"></span>
+                    </div>
+                </div>
+                <div class="textbox">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div>
+                        <h5 id="password">Password</h5>
+                        <input class="input" id="txt-password" type="password" name="" placeholder="" required>
+                    </div>
+                    <div class="notice">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span class="tooltip-text"></span>
+                    </div>
+                </div>
+                <div class="textbox">
+                    <div class="i">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <div>
+                        <h5 id="retype">Re-type your password</h5>
+                        <input class="input" id="txt-retype" type="password" name="" placeholder="" required>
+                    </div>
+                    <div class="notice">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span class="tooltip-text"></span>
+                    </div>
+                </div>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I agree all statements in <a href="#">Terms of services</a></label><br>
+                <div class="link-container">
+                    <a id="go-to-login" href="login.html" class="nav-link">I am already member</a>
+                </div>
+                <input class="btn submit register-btn" type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+    <script src="js/user.js"></script>
+    <script src="js/register-login-process.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
